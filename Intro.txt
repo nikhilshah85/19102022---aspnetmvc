@@ -1,0 +1,24 @@
+			MVC 
+---What is MVC
+---How to developer a proper Web APP this pattern
+---EF Core with SQL Server for database and CRUD
+---Content Security 
+	--Identity Framework 
+		oAuth
+		2FA 
+		Profile mangement
+--- WebAPI 
+	Develop WebAPI
+	Consume WebAPI
+-----------------------------------------
+Pre-Requ
+	a. fundmanental of OOPS and HTML, CSS and JS
+	b. Software
+		Visual Studio
+		SQL Server with SSMS
+-----------------------------------------
+	Goals
+	Be a Developer on MVC
+	Take a new project / maintain the same
+----------------------------------
+	Be interactive

@@ -1,0 +1,35 @@
+﻿
+
+<h1> Welcome to About Us Page </h1>
+
+
+<p> Hello and welcome to my First page, there is lot to say about us </p>
+
+<div>
+    <h4>  App Name : @ViewBag.appName </h4>
+    <h4> Developer : @ViewBag.developer </h4>
+    <h4> Team Size : @ViewBag.teamSize </h4>
+    
+    Team Members : 
+   @* <ul>
+    @foreach (var item in ViewBag.teamMembers)
+    {
+        <li> @item </li>
+    }
+    </ul>*@
+
+   @* <select>
+        @foreach (var item in ViewBag.teamMembers)
+        {
+            <option> @item </option>
+        }
+    </select>*@
+
+    
+    <span>
+        @foreach (var item in ViewBag.teamMembers)
+        {
+            <input type="checkbox"/>@item
+        }
+    </span>
+</div>

@@ -1,0 +1,30 @@
+Model View Controller
+
+Model (.cs file) - Data part of application
+	CRUD operations (ADO.Net, EF, InMemory Collection etc..., file)
+	Sorting, filter, grouping
+	Calculation, Formatting, validation 
+	API calls
+	Web Service 
+View (.cshtml file) - uses a Razor Syntax (short hand -HTML, CSS and JS)
+	UI - Images, annimation, videos, etc,,,,,,
+	JQuery, bootstrap
+
+Controller (.cs file) 
+	cordinate between view n model 
+	Auth
+----------------------------------------------------------------------------------------
+		Razor Syntax
+
+We use ViewBag to pass data from Controller to View
+	ViewBag holds various types of data
+
+
+
+
+
+
+
+
+
+
