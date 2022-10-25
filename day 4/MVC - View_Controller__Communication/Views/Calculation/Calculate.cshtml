@@ -1,0 +1,25 @@
+﻿
+
+
+<form method="POST">
+    <input type="number" placeholder="Enter First Postive Number" name="firstNum" class="form-control"/>
+    <input type="number" placeholder="Enter Second Postive Number" name="secondNum" class="form-control"/>
+
+    <button class="btn btn-success">Calculate</button>
+
+</form>
+
+
+@if(ViewBag.errMessage != "")
+{
+    <h3 style="color:red"> @ViewBag.errMessage</h3>
+}
+else
+{
+<div>
+    <h3> Addition : @ViewBag.addition </h3>
+    <h3> Subtraction : @ViewBag.subtraction </h3>
+    <h3> Division : @ViewBag.division </h3>
+    <h3> Multiplication : @ViewBag.multiplication </h3>
+</div>
+}
